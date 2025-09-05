@@ -130,6 +130,13 @@ BOARD_DEFS = {
         'spi_bus': "spi3a",
         "cs_pin": "PC9"
     },
+    'robin_v3': {
+        'mcu': "stm32f407xx",
+        'spi_bus': "spi3a",
+        "cs_pin": "PC9",
+        "firmware_path": "Robin_nano_v3.bin",
+        "current_firmware_path": "Robin_nano_v3.cur"
+    },
     'fly-gemini-v2': {
         'mcu': "stm32f405xx",
         'spi_bus': "spi1",
@@ -233,7 +240,6 @@ BOARD_ALIASES = {
     'fysetc-spider-v1': BOARD_DEFS['fysetc-spider'],
     'fysetc-s6-v1.2': BOARD_DEFS['fysetc-spider'],
     'fysetc-s6-v2': BOARD_DEFS['fysetc-spider'],
-    'robin_v3': BOARD_DEFS['monster8'],
     'btt-skrat-v1.0': BOARD_DEFS['btt-skrat'],
     'chitu-v6': BOARD_DEFS['chitu-v6'],
     'qidi-x-smart3': BOARD_DEFS['qidi-x6'],
